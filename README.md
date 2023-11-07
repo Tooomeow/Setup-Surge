@@ -18,7 +18,7 @@ Direct = direct
 //#(copy from node list)#
 
 [Proxy Group]
-AUTO = url-test, #(fill the every proxy name)# , url = http://www.google.com
+AUTO = url-test, #(fill the every proxy name)# , url = website
 Group = select, AUTO, #(fill the every proxy name)#, Direct
 
 [Rule]
